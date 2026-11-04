@@ -170,39 +170,39 @@ When collecting samples, try to cover diverse, varying real-world conditions::
 > Experimental setup for RGB data collection using Leanbot:
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/da.jpg" width="50%" />
+<img src="Docs/da.jpg" width="50%" />
 </p>
 
 > Red object placed in front of the Leanbot when the RGB LED is **RED**.
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/red.jpg" width="50%" />
+<img src="Docs/red.jpg" width="50%" />
 </p>
 
 > Green object placed in front of the Leanbot when the RGB LED is **GREEN**.
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/green.jpg" width="50%" />
+<img src="Docs/green.jpg" width="50%" />
 </p>
 
 > Blue object placed in front of the Leanbot when the RGB LED is **BLUE**.
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/blue.jpg" width="50%" />
+<img src="Docs/blue.jpg" width="50%" />
 </p>
 
 
 > Yellow object placed in front of the Leanbot when the RGB LED is **YELLOW**.
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/yellow.jpg" width="50%" />
+<img src="Docs/yellow.jpg" width="50%" />
 </p>
 
 
 > Purple object placed in front of the Leanbot when the RGB LED is **PURPLE**.
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/purple.jpg" width="50%" />
+<img src="Docs/purple.jpg" width="50%" />
 </p>
 
 #### 1.3. Data Preparation
@@ -458,7 +458,7 @@ confusion_matrix_display(predict_objColor,actual_objColor,dtree_model.classes_)
 > Example: Confusion Matrix plot for the test dataset
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/DocsConfusionMatrix.jpg" />
+<img src="Docs/ConfusionMatrix.jpg" />
 </p>
 
 > Example: Text-based Confusion Matrix of the test dataset:
@@ -503,7 +503,7 @@ plt.savefig("dtree.jpg")  # Save the tree diagram as an image
 > Example: Graphical representation of the Decision Tree trained on our dataset:
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docsdtree.jpg" />
+<img src="Docs/dtree.jpg" />
 </p>
 
 #### Text-based rules
@@ -603,7 +603,7 @@ We use an AI assistant to turn the exported Decision Tree rules into a hand-writ
 <li value="2" style="list-style-type: none;"> 2. Copy the text-based decision tree (from the trained model) and paste it into ChatGPT / Gemini.</li>
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/gpt.jpg" width="50%" />
+<img src="Docs/gpt.jpg" width="50%" />
 </p>
 
 
@@ -958,7 +958,7 @@ void ObjectColorDemo() {
 5. Observe the Leanbot RGB LED indicating the identified color.
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/d1.jpg" width="50%" />
+<img src="Docs/d1.jpg" width="50%" />
 </p>
 
 **What Leanbot Does**:
@@ -975,7 +975,7 @@ The following tests demonstrate how the Leanbot detects object colors using the 
 ##### Red Jenga block
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/dred.jpg" width="50%" />
+<img src="Docs/dred.jpg" width="50%" />
 </p>
 
 
@@ -1003,7 +1003,7 @@ Detect Jenga Block: RED
 ##### Green Jenga block
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/dgreen.jpg" width="50%" />
+<img src="Docs/dgreen.jpg" width="50%" />
 </p>
 
 
@@ -1031,7 +1031,7 @@ Detect Jenga Block: GREEN
 ##### Blue Jenga block
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/dblue.jpg" width="50%" />
+<img src="Docs/dblue.jpg" width="50%" />
 </p>
 
 
@@ -1059,7 +1059,7 @@ Detect Jenga Block: BLUE
 ##### Yellow Jenga block
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/dyellow.jpg" width="50%" />
+<img src="Docs/dyellow.jpg" width="50%" />
 </p>
 
 
@@ -1087,7 +1087,7 @@ Detect Jenga Block: YELLOW
 ##### Purple Jenga block
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/dpurple.jpg" width="50%" />
+<img src="Docs/dpurple.jpg" width="50%" />
 </p>
 
 
@@ -1115,7 +1115,7 @@ Detect Jenga Block: PURPLE
 ##### Blue Jenga block (misclassified as Purple)
 
 <p style="text-align: center;">  
-<img src="https://git.pythaverse.space/TrainingAIROC_2026/Advanced_Color_Sensor_with_AI/raw/master/Docs/dw.jpg" width="50%" />
+<img src="Docs/dw.jpg" width="50%" />
 </p>
 
 Description:
