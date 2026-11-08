@@ -199,10 +199,3 @@ Robot 2: IoTColor1.read() → "Green" → FetchGreen()
 - Các vòng chờ dữ liệu APDS và giao lộ trong mẫu chưa có xử lý lỗi/timeout. Khi thử nghiệm, nên có cơ chế dừng an toàn.
 - Các hàm điều khiển như `Forward()`, `Rotate()` và các route phụ thuộc tốc độ, đường kính bánh, độ bám và kích thước sa bàn; cần hiệu chỉnh trên phần cứng thực tế.
 
-## 8. Nguồn mã
-
-- [Leanbot 1 – Phát hiện màu và ghi IoT](./iot1.ino)
-- [Leanbot 2 – Đọc IoT và vận chuyển khối](./iot2.ino)
-- [Thư mục Leanbot IoT](./)
-
-> README mô tả hành vi **đang có trong hai file `.ino`**, không tự động thay đổi chương trình điều khiển hoặc bổ sung cơ chế đồng bộ/an toàn chưa được triển khai.
