@@ -1,0 +1,32 @@
+//  Leanbot fires a laser beam when the `TB1A` button is pressed. 
+#include <Leanbot.h>
+
+class cLbLaze {
+  public:
+    void begin();
+    void shoot();
+};
+
+void cLbLaze::begin() {
+  pinMode(13, OUTPUT);
+}
+
+void cLbLaze::shoot() {
+  Serial.println("shoot");
+  digitalWrite(13, HIGH);
+  delay(2000);
+  digitalWrite(13, LOW);
+}
+
+cLbLaze LbLaze;
+
+void setup() {
+  Leanbot.begin();
+  LbLaze.begin();
+}
+
+void loop() {
+  if (LbTouch.read(TB1A)) {
+    LbLaze.shoot();
+  }
+}
